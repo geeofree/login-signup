@@ -1,5 +1,9 @@
 import React from 'react'
 
-const Login = () => <h1>Login Page</h1>
+const Login = (props) => (
+  <div className="form-container">
+    {console.log(props)}
+  </div>
+)
 
 export default Login

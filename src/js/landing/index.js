@@ -4,7 +4,7 @@ import LazyRoute from 'common/components/routing/LazyRoute'
 import { Link } from 'react-router-dom'
 
 const Landing = ({ match }) => (
-  <div>
+  <div id='landing-page'>
     <div>
       <Link to={match.url}>Home</Link>
       <Link to={`${match.url}login`}>Login</Link>
